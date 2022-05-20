@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LIGHTPURPLE"
+    android:backgroundTint="@color/LIGHTPURPLE"
+    tools:context=".MainActivity6">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="242dp"
+        android:layout_height="41dp"
+        android:text="     Законы Ньютона"
+        android:textColor="@color/BLACKBLUE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="373dp"
+        android:layout_height="554dp"
+        android:text="Динамика - раздел механики, изучающий причины возникновения и изменения механического движения  Основы динамики составляют три закона Ньютона, являющиеся результатом обобщения наблюдений и опытов в области механических явлений.  Законы механики Ньютона относятся к точке, обладающей массой – материальной точке.I закон Ньютона  Существуют системы отсчета, называемые инерциальными, относительно которых тело движется прямолинейно и равномерно, если на него не действуют другие тела или действие этих тел скомпенсировано .Инерция - явление сохранения скорости тела  при отсутствии действия на него других тел.Сила – количественная мера действия тел друг на друга, в результате которого тела получают ускорение или испытывают деформацию.  Сила характеризуется модулем, направлением и точкой приложения  Сила - векторная величина  1 Ньютон -сила, которая сообщает телу массой 1кг ускорение 1 в направлении действия силы.II закон Ньютона  Ускорение тела прямо пропорционально  силе, действующей на него, и обратно пропорционально его массе.III закон Ньютона  Силы, с которыми тела действуют друг на друга, равны по модулю и направлены по одной прямой в противоположные стороны."
+        android:textColor="@color/BLACKBLUE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <Button
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тест"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

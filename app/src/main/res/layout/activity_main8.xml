@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LIGHTPURPLE"
+    android:backgroundTint="@color/LIGHTPURPLE"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="362dp"
+        android:layout_height="69dp"
+        android:text="Равномерное прямолинейное движение"
+        android:textColor="@color/BLACKBLUE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="380dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="8dp"
+        android:autoSizeTextType="none"
+        android:autoText="false"
+        android:contextClickable="false"
+        android:elegantTextHeight="false"
+        android:text="Равномерное прямолинейное движение – это движение, при котором за любые равные промежутки времени тело совершает равные перемещения.  Скорость равномерного прямолинейного движения точки – величина, равная отношению перемещения к промежутку времени, в течение которого это перемещение произошло.  Относительность механического движения – это зависимость траектории движения тела, пройденного пути, перемещения и скорости от выбора системы отсчёта.Величины, описывающие это движение: скорость V , перемещение S , координата x , время t .Уравнение скорости: V=V0=const, в проекции на ось x : Vx=V0x=const.При таком движении скорость V точки не изменяется.Уравнение перемещения: S=V0t , в проекции на ось x : Sx=V0xt.При таком движении перемещение S точки изменяется линейно со временем.Координатное уравнение: x=x0 + V0xt.Для координат вдоль других осей формула выглядит аналогично."
+        android:textAllCaps="false"
+        android:textColor="@color/BLACKBLUE"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Тест"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.209" />
+</androidx.constraintlayout.widget.ConstraintLayout>
